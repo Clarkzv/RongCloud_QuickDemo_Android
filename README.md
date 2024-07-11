@@ -20,18 +20,18 @@
 
 ![img.png](screenshots/import_sdk_package.png)
 
-#### 注意：如果您只需要 IM 基础能力，您只需要导入imlib 模块。 
-#### 注意：如果您需要 IM 基础能力跟UI组件，您需要导入imlib 、 imkit 模块。 
-#### 注意：如果您需要 RTC 基础能力，您需要导入imlib 、rtclib 模块。 
-#### 注意：如果您需要 '音视频通话' 基础能力，您需要导入imlib 、rtclib 、calllib模块。 
-#### 注意：如果您需要 '音视频通话' 基础能力以及 UI 组件，您需要导入imlib 、rtclib 、calllib 、imkit 、callkit模块。 
+#### 注意：如果您只需要 IM 基础能力，您只需要导入imlib 模块。
+#### 注意：如果您需要 IM 基础能力跟UI组件，您需要导入imlib 、 imkit 模块。
+#### 注意：如果您需要 RTC 基础能力，您需要导入imlib 、rtclib 模块。
+#### 注意：如果您需要 '音视频通话' 基础能力，您需要导入imlib 、rtclib 、calllib模块。
+#### 注意：如果您需要 '音视频通话' 基础能力以及 UI 组件，您需要导入imlib 、rtclib 、calllib 、imkit 、callkit模块。
 
 ### 3.主 Module 引用 SDK 模块。
 
 ![img.png](screenshots/app_dependencies.png)
 
 ### 4.运行 app 如果遇到 callkit 模块找不到 imkit 资源引用的问题，是因为 模块之间R类传递属性被关闭引起的问题（高版本Android Studio 默认是关闭的） 请参考如下解决方式。
-  
+
 #### 在主工程的 gradle.properties 文件中修改 如下属性为 false 再运行 app。
 
 ```groovy
@@ -41,14 +41,15 @@
 ### 5.运行 app 如果遇到 callkit 模块 报如下错误的问题：
   ```java
     //  找不到如下类文件
-androidx.recyclerview.widget.RecyclerView
+    //  androidx.recyclerview.widget.RecyclerView
    ```
 
 #### 请参考如下解决方案：
 
-   、、 将 imkit 模块中的 'recyclerview' 依赖改成 api。、、
+、、 将 imkit 模块中的 'recyclerview' 依赖改成 api。、、
 
 ![img.png](screenshots/run_error_viewholder.png)
+
 
 ### 6.运行 app 如果遇到 callkit 模块 报如下错误的问题：
 
@@ -56,7 +57,7 @@ androidx.recyclerview.widget.RecyclerView
 
 #### 请参考如下解决方案：
 
-   、、先将您的主 callkit 模块中的 BuildConfig.VERSION_NAME 改成 您下载的SDK版本号，运行成功后再改成 BuildConfig.VERSION_NAME 、、
+、、先将您的主 callkit 模块中的 BuildConfig.VERSION_NAME 改成 您下载的SDK版本号，运行成功后再改成 BuildConfig.VERSION_NAME 、、
 
 ![img.png](screenshots/run_error_versionName_modify.png)
 
@@ -72,13 +73,14 @@ androidx.recyclerview.widget.RecyclerView
 
 
 ## 注意：
+1. 私有云如何获取配置信息可以参考如下链接：
+   [ 私有云如何获取配置信息](https://help.rongcloud.cn/t/topic/1216)
 
-1.如果您的 CA 证书不是正式的，如果报Https 签名错误，您可以参考 如下方法：
+
+2.如果您的证书不是正式的，如果报Https 签名错误，您可以参考 如下方法：
 
  ```java
     //  注意 要在 init 之前调用
-com.rongcloud.demo.TestApp.setSSL
+    //  com.rongcloud.demo.TestApp.setSSL 方法
    ```
-
-
-
+[ 具体设置方法可以参考下面链接](https://help.rongcloud.cn/t/topic/567)

@@ -16,6 +16,7 @@ import javax.net.ssl.X509TrustManager;
 
 import io.rong.calllib.RongCallClient;
 import io.rong.common.utils.SSLUtils;
+import io.rong.imkit.IMCenter;
 import io.rong.imkit.RongIM;
 import io.rong.imkit.config.FeatureConfig;
 import io.rong.imkit.config.RongConfigCenter;
@@ -27,19 +28,17 @@ public class TestApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-       // setSSL();
+        setSSL();
         InitOption initOption = new InitOption.Builder().build();
-        // 私有 navi地址是必须设置的，注意这个地址不能设置错了，一般是有im-nav 这样的字段
-        //initOption.setNaviServer("https://xxxx/fcs-im-nav");
-        // 文件服务器地址，非必须，根据您的配置设置是否配置
-       // initOption.setFileServer("https://xxxx/fcs-im-file");
-        // 初始化 必须调用，注意参数都是必填
-        RongIM.init(this, "p5tvi9dspl334",initOption);
+        initOption.setNaviServer("https://59.110.52.79:8443/fcs-im-nav");
+        initOption.setFileServer("https://xxxx");
+        initOption.setEnv("");
+
+        // 注意这里如果既用到了imlib 又用到了imkit ，需要使用IMCenter.init ，
+        IMCenter.init(this, "",initOption);
         //如果只用到了imlib，RongCoreClient.init;
       // RongCoreClient.init(this, "pgyu6aty8i3xu",initOption);
     }
-
-
 
     private void setSSL() {
         SSLContext mySSLContext = getSslContext();

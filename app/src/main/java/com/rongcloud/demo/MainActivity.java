@@ -29,11 +29,10 @@ import io.rong.message.TextMessage;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-    private final String userA = "9999";
-    private final String userB = "9991";
-    private final String tokenA = "Wycs3eeyznk1lNilcGI5kPMNqFpY9nnf5JZDGLrd54Dq6MWQMZCad8mK5JK46yUB6AMLnOyn8ilLUMd92z4V2w==";
-    private final String tokenB = "05hesObbiXgeBOtBN5QZX86JcO4j7FbPD0CS9MsSRCbZjiHwzL2IX9s0seKqjUKrUEhnxsTnSxQB10AlOipCdw==";
-    private final String TEST_TOKEN = "TALkX+wLxJrnfWJ8b8iAmAwhjFkgue4ythDR5JVB/cc=@sdkq.cn.rongnav.com;sdkq.cn.rongcfg.com";
+    private final String userA = "";
+    private final String userB = "";
+    private final String tokenA = "==";
+    private final String tokenB = "==";
     Button connectBtn, conversationListBtn, conversationBtn, calllibBtn, callkitBtn, sendMessageBtn;
 
     @Override
@@ -63,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
      * 连接方法
      */
     private void rongConnect() {
-        RongIM.connect(TEST_TOKEN, new RongIMClient.ConnectCallback() {
+        RongIM.connect(tokenA, new RongIMClient.ConnectCallback() {
             @Override
             public void onSuccess(String t) {
                 ToastUtils.s(MainActivity.this, "连接成功");
