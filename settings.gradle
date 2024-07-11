@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {url "https://maven.rongcloud.cn/repository/maven-releases/"}
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "RongCloud_QuickDemo_Android"
+include ':app'
+include ':callkit'
+include ':calllib'
+include ':imkit'
+include ':imlib'
+include ':rtclib'

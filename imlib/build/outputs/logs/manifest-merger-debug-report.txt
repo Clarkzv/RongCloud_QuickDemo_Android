@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:1:1-65:12
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:1:1-65:12
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:1:1-65:12
+	package
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+		INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:14:22-65
+uses-permission#${applicationId}.permission.RONG_ACCESS_RECEIVER
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:18:22-85
+permission#${applicationId}.permission.RONG_ACCESS_RECEIVER
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:21:5-23:47
+	android:protectionLevel
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:22:9-72
+application
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:25:5-63:19
+service#io.rong.imlib.ipc.RongService
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:26:9-28:38
+	android:process
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:27:13-57
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:30:9-72
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:30:19-69
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:32:9-68
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:32:19-65
+service#io.rong.push.rongpush.PushService
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:36:9-40:46
+	android:process
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:40:13-43
+	android:exported
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:39:13-69
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:37:13-61
+receiver#io.rong.push.rongpush.PushReceiver
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:43:9-47:20
+	android:process
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:46:13-43
+	android:exported
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:44:13-62
+activity#io.rong.push.notification.RongBridgeActivity
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:49:9-62:20
+	android:enabled
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:51:13-35
+	android:excludeFromRecents
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:53:13-46
+	android:launchMode
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:54:13-48
+	android:exported
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:52:13-36
+	android:theme
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:55:13-72
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:50:13-72
+intent-filter#action:name:android.intent.action.VIEW+action:name:io.rong.push.notification.RongBridgeActivity+category:name:android.intent.category.DEFAULT
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:56:13-61:29
+action#android.intent.action.VIEW
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:57:25-66
+action#io.rong.push.notification.RongBridgeActivity
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:58:17-87
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:58:25-84
+category#android.intent.category.DEFAULT
+ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml:60:27-73
+uses-sdk
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+		INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+		ADDED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml
+		INJECTED from /Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/imlib/AndroidManifest.xml

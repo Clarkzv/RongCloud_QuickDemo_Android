@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">QuickDemo</string>
+    <string name="main_connect" translatable="false">连接</string>
+    <string name="main_conversation_list" translatable="false">会话列表</string>
+    <string name="main_conversation" translatable="false">会话界面</string>
+    <string name="main_call" translatable="false">音视频通话</string>
+    <string name="main_send_message" translatable="false">发消息</string>
+    <string name="accept" translatable="false">接听</string>
+    <string name="hang_up" translatable="false">挂断</string>
+    <string name="call" translatable="false">呼叫</string>
+</resources>

@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.callkit" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+9-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:5:5-80
+9-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:5:22-77
+10    <uses-permission
+10-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:6:5-8:38
+11        android:name="android.permission.BLUETOOTH_ADMIN"
+11-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:7:9-58
+12        android:maxSdkVersion="30" />
+12-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:8:9-35
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:9:5-10:55
+13-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:10:9-52
+14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+14-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:11:5-76
+14-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:11:22-73
+15    <uses-permission
+15-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:12:5-14:58
+16        android:name="android.permission.BLUETOOTH_SCAN"
+16-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:13:9-57
+17        android:usesPermissionFlags="neverForLocation" />
+17-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:14:9-55
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+18-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:15:5-78
+18-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:15:22-75
+19    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+19-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:16:5-85
+19-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:16:22-82
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:17:5-78
+20-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:17:22-75
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:18:5-66
+21-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:18:22-63
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:19:5-81
+22-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:19:22-78
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:20:5-80
+23-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:20:22-77
+24    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+24-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:21:5-81
+24-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:21:22-78
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:22:5-75
+25-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:22:22-72
+26
+27    <application android:supportsRtl="true" >
+27-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:24:5-90:19
+27-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:24:18-44
+28        <meta-data
+28-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:25:9-27:59
+29            android:name="rc.callkit"
+29-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:26:13-38
+30            android:value="io.rong.callkit.RongCallKit" />
+30-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:27:13-56
+31
+32        <activity
+32-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:29:9-39:20
+33            android:name="io.rong.callkit.MultiVideoCallActivity"
+33-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:30:13-51
+34            android:exported="true"
+34-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:31:13-36
+35            android:launchMode="singleTop"
+35-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:32:13-43
+36            android:screenOrientation="portrait"
+36-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:33:13-49
+37            android:windowSoftInputMode="stateHidden|adjustResize" >
+37-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:34:13-67
+38            <intent-filter>
+38-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:35:13-38:29
+39                <action android:name="io.rong.intent.action.voip.MULTIVIDEO" />
+39-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:36:17-80
+39-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:36:25-77
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:17-76
+41-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:27-73
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:41:9-55:20
+45            android:name="io.rong.callkit.SingleCallActivity"
+45-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:42:13-47
+46            android:exported="true"
+46-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:43:13-36
+47            android:launchMode="singleTop"
+47-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:44:13-43
+48            android:screenOrientation="portrait"
+48-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:45:13-49
+49            android:windowSoftInputMode="stateHidden|adjustResize" >
+49-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:46:13-67
+50            <intent-filter>
+50-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:47:13-50:29
+51                <action android:name="io.rong.intent.action.voip.SINGLEVIDEO" />
+51-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:48:17-81
+51-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:48:25-78
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:17-76
+53-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:27-73
+54            </intent-filter>
+55            <intent-filter>
+55-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:51:13-54:29
+56                <action android:name="io.rong.intent.action.voip.SINGLEAUDIO" />
+56-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:52:17-81
+56-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:52:25-78
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:17-76
+58-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:27-73
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:57:9-67:20
+62            android:name="io.rong.callkit.MultiAudioCallActivity"
+62-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:58:13-51
+63            android:exported="true"
+63-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:59:13-36
+64            android:launchMode="singleTop"
+64-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:60:13-43
+65            android:screenOrientation="portrait"
+65-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:61:13-49
+66            android:windowSoftInputMode="stateHidden|adjustResize" >
+66-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:62:13-67
+67            <intent-filter>
+67-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:63:13-66:29
+68                <action android:name="io.rong.intent.action.voip.MULTIAUDIO" />
+68-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:64:17-80
+68-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:64:25-77
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:17-76
+70-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:37:27-73
+71            </intent-filter>
+72        </activity>
+73
+74        <!-- Android Q 后台无法弹出Activity，通过通知栏提醒用户 -->
+75        <receiver
+75-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:70:9-79:20
+76            android:name="io.rong.callkit.VoIPBroadcastReceiver"
+76-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:71:13-65
+77            android:exported="true" >
+77-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:72:13-36
+78            <intent-filter>
+78-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:73:13-78:29
+79                <action android:name="action.push.CallInviteMessage" />
+79-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:74:17-72
+79-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:74:25-69
+80                <action android:name="action.push.CallInviteMessage.CLICKED" />
+80-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:75:17-80
+80-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:75:25-77
+81                <action android:name="action.push.voip.hangup.click" />
+81-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:76:17-72
+81-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:76:25-69
+82                <action android:name="action.voip.notification.clear" />
+82-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:77:17-73
+82-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:77:25-70
+83            </intent-filter>
+84        </receiver>
+85
+86        <activity android:name="io.rong.callkit.CallSelectMemberActivity" />
+86-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:81:9-62
+86-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:81:19-59
+87
+88        <receiver
+88-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:83:9-89:20
+89            android:name="io.rong.callkit.util.RTCPhoneStateReceiver"
+89-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:84:13-55
+90            android:exported="true" >
+90-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:85:13-36
+91            <intent-filter>
+91-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:86:13-88:29
+92                <action android:name="android.intent.action.PHONE_STATE" />
+92-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:87:17-76
+92-->/Users/yongqiming/developer/android/project/rongcloud/RongCloud_QuickDemo_Android/callkit/src/main/AndroidManifest.xml:87:25-73
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>

@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 31
+        versionName "5.6.2.54"
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            res.srcDirs = ['res']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    api 'com.google.code.gson:gson:2.8.6'
+
+    //SDK Crash 上报
+    api("cn.rongcloud.sdk:crash:1.0.8")
+    // mars  rts log需要的库，传到Maven
+    api("cn.rongcloud.sdk:cpp_shared:0.0.1")
+}
