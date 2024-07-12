@@ -30,14 +30,13 @@ public class TestApp extends Application {
         super.onCreate();
         setSSL();
         InitOption initOption = new InitOption.Builder().build();
-        initOption.setNaviServer("https://59.110.52.79:8443/fcs-im-nav");
-        initOption.setFileServer("https://xxxx");
-        initOption.setEnv("");
-
+        initOption.setNaviServer("https://xxxxx/fcs-im-nav");  // 替换成您的navi地址
+        initOption.setFileServer("https://xxxx");  // 替换成您的文件地址
+        initOption.setEnv("");  // 环境设置  内网：intranet、外网：extranet、其他：others、默认：default (外网)
         // 注意这里如果既用到了imlib 又用到了imkit ，需要使用IMCenter.init ，
         IMCenter.init(this, "",initOption);
         //如果只用到了imlib，RongCoreClient.init;
-      // RongCoreClient.init(this, "pgyu6aty8i3xu",initOption);
+      // RongCoreClient.init(this, "",initOption);
     }
 
     private void setSSL() {
